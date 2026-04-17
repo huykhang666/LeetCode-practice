@@ -6,7 +6,7 @@ class Solution {
                 if(i != j) {
                     int tmp = nums[i];
                     nums[i] = nums[j];
-                    nums[j] = tmp;
+                    nums[j] = tmp;;
                 }
                 j++;
             }
